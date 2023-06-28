@@ -1,0 +1,65 @@
+.RecipeCont {
+    padding-bottom: 5rem;
+    .row {
+        .col {
+            h1 {
+                font-family: 'Raleway', sans-serif;
+                color: #81d7ff;
+                margin-top: 17rem;
+                margin-bottom: 3rem;
+            }
+        }
+    }
+    
+    .linkss {
+        .col-12 {
+            h3 {
+                font-family: 'Raleway', sans-serif;
+                font-weight: 100;
+                margin-top: 2rem !important;
+                display: inline-block !important;
+                color: aliceblue;
+            }
+            
+            h4 {
+                font-family: 'Raleway', sans-serif;
+                font-weight: 100;
+                margin-left: 2rem;
+                margin-top: 0rem !important;
+                display: inline-block !important;
+                a{
+                    text-decoration: none;
+                    color: #920101;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:768px){
+    .RecipeCont {
+        padding-bottom: 4rem;
+        .row {
+            .col {
+                h1 {
+                    margin-top: 12rem;
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+        
+        .linkss {
+            .col-12 {
+                h3 {
+                    margin-top: 1rem !important;
+                }
+                
+                h4 {
+                    margin-left: 1rem;
+                    margin-top: 0rem !important;
+                }
+            }
+        }
+    }
+
+}
